@@ -16,4 +16,4 @@ _start:                         ; define an entry point. Like the main func in a
   
 section .data                   ; the section holdes variables
   message: db "Hello World!"    ; db for Define Data
-  mlen  eq $-message            ; define the byte lengths of the message
+  mlen  equ $-message           ; define the byte lengths of the message
